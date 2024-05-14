@@ -22,7 +22,7 @@ case "$1" in
     echo "--error or -e [count]: Create error files"
     ;;
   --init)
-    git clone https://github.com/dumitru04/lab4
+    git clone https://github.com/dumitru04/lab4.git
     export PATH=$PATH:$(pwd)/lab4
     ;;
   --error|-e)
